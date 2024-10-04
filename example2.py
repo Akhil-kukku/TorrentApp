@@ -57,7 +57,7 @@ def download_selected_files(torrent_file, download_path, selected_files):
     print(f"\nDownload complete: {handle.name()}")
 
 if __name__ == '__main__':
-    torrent_file = '/content/ColdplayASkyFullOfStarsOfficialVideo_201709_archive.torrent'  # Example: 'myfile.torrent'
+    torrent_file = '/content/'  # Example: 'myfile.torrent'
     download_path = '/content'  # Example: '/downloads/'
 
     # Ensure the download directory exists
